@@ -3,6 +3,7 @@ package com.adpguima.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import com.adpguima.model.Guitar;
@@ -20,5 +21,9 @@ public class GuitarService {
 
 	public Guitar add(Guitar guitarAdd) {
 		return guitarRepository.save(guitarAdd);
+	}
+
+	public void delete(long id) throws EmptyResultDataAccessException {
+		guitarRepository.deleteById(id);
 	}
 }

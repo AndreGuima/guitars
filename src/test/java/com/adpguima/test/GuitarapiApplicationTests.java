@@ -1,8 +1,6 @@
 package com.adpguima.test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.not;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
@@ -39,7 +37,7 @@ public class GuitarapiApplicationTests {
 	@Test
 	public void getAllGuitarsTest() throws Exception {
 
-		mockMvc.perform(MockMvcRequestBuilders.get("/guitars").accept(MediaType.APPLICATION_JSON)).andDo(print())
+		mockMvc.perform(MockMvcRequestBuilders.get("/guitars").accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk()).andExpect(MockMvcResultMatchers.jsonPath("$[0].id").exists())
 				.andExpect(MockMvcResultMatchers.jsonPath("$.[0].brand").isNotEmpty());
 	}
@@ -57,7 +55,22 @@ public class GuitarapiApplicationTests {
 	public void postGuitarShouldReturnBadRequestTest() throws Exception {
 
 		mockMvc.perform(MockMvcRequestBuilders.post("/guitars").accept(MediaType.APPLICATION_JSON).param("name",
-				"New Guitar Name")).andDo(print()).andExpect(status().isBadRequest()).andReturn();
+				"New Guitar Name")).andExpect(status().isBadRequest());
+	}
+
+	@Test
+	public void deleteGuitarTest() throws Exception {
+
+		mockMvc.perform(MockMvcRequestBuilders.delete("/guitars/1").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
+				.andExpect(status().isNoContent());
+	}
+
+	@Test
+	public void deleteGuitarShouldReturnNotFoundTest() throws Exception {
+
+		mockMvc.perform(
+				MockMvcRequestBuilders.delete("/guitars/101").contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
+				.andExpect(status().isNotFound());
 	}
 
 }
