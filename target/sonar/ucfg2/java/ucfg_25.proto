@@ -1,24 +1,46 @@
 
 ^com.adpguima.service.GuitarService#add(Lcom/adpguima/model/Guitar;)Lcom/adpguima/model/Guitar;
-__unknown_file ("1*“
+__unknown_file ("1*æ
+
 1W
-ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java	 (–
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java (Å
+
+W
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java (
+%0org.slf4j.Logger"__id*
+""øº
+W
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java2 (C
+
+%1long""com.adpguima.model.Guitar#getId()J*(
+&
+	guitarAddcom.adpguima.model.Guitar2getId()£†
+W
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java (D
+
+%2void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*'%
+#New Guitar is created with id: {0} *
+
+
+%1long2*info(Ljava/lang/String;Ljava/lang/Object;)–
 Õ
 W
-ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java	 (.
-%0(com.adpguima.repository.GuitarRepository"__id*<*:$
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java	 (.
+%3(com.adpguima.repository.GuitarRepository"__id*<*:$
 "com.adpguima.service.GuitarService"
 guitarRepository∫∑
 W
-ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java	 ()
-%1S"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*0
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java	 ()
+%4S"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*0
 .
-%0(com.adpguima.repository.GuitarRepository*(
+%3(com.adpguima.repository.GuitarRepository*(
 &
 	guitarAddcom.adpguima.model.Guitar2save(Ljava/lang/Object;)"d
 W
-ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java (*	
+ME:\Estudos\Java\guitars\src\main\java\com\adpguima\service\GuitarService.java (*	
 
-%1S:&
+%4S:&
 	guitarAddcom.adpguima.model.GuitarB&$
 "com.adpguima.service.GuitarService

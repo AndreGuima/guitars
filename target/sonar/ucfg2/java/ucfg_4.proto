@@ -1,61 +1,117 @@
 
-ecom.adpguima.controller.GuitarController#save(Lcom/adpguima/model/Guitar;)Lcom/adpguima/model/Guitar;
-__unknown_file ("paramAnnotations*Æ
+fcom.adpguima.controller.GuitarController#save(Lcom/adpguima/dto/GuitarDTO;)Lcom/adpguima/model/Guitar;
+__unknown_file ("paramAnnotations*ƒ
 paramAnnotations]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java% %(/‘
-—
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java& &(5Ÿ
+÷
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java# #(
-%2"
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java$ $(
+%10"
 __annotate*75
-3org.springframework.web.bind.annotation.PostMapping*%
-#
-guitarcom.adpguima.model.Guitar◊
-‘
+3org.springframework.web.bind.annotation.PostMapping*)
+'
+	guitarDTOcom.adpguima.dto.GuitarDTO‹
+Ÿ
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java$ $($
-%3"
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java% %($
+%11"
 __annotate*:8
-6org.springframework.web.bind.annotation.ResponseStatus*%
-#
-guitarcom.adpguima.model.Guitar‘
-—
+6org.springframework.web.bind.annotation.ResponseStatus*)
+'
+	guitarDTOcom.adpguima.dto.GuitarDTOŸ
+÷
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java% %( 
-%4"
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java& &( 
+%12"
 __annotate*75
-3org.springframework.web.bind.annotation.RequestBody*%
-#
-guitarcom.adpguima.model.Guitar≠
-™
+3org.springframework.web.bind.annotation.RequestBody*)
+'
+	guitarDTOcom.adpguima.dto.GuitarDTO¥
+±
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java%( %(.#
-guitarcom.adpguima.model.Guitar"__annotation*
-
-%2*
-
-%3*
-
-%4*
-1*ò
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java&+ &(4'
+	guitarDTOcom.adpguima.dto.GuitarDTO"__annotation*
+
+%10*
+
+%11*
+
+%12*
+1*—
 1]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java&	 &(”
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java' '((ûõ
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java'  '(&
+%0com.adpguima.model.Guitar"com.adpguima.model.Guitar∞
+≠
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java' '((
+%1"#com.adpguima.model.Guitar#<init>()V*!
+
+%0com.adpguima.model.Guitar∫
+∑
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java' '()-
+persistentGuitarcom.adpguima.model.Guitar"__id*!
+
+%0com.adpguima.model.GuitarÍÁ
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java( ((0
+%2java.lang.String"7com.adpguima.dto.GuitarDTO#getBrand()Ljava/lang/String;*)
+'
+	guitarDTOcom.adpguima.dto.GuitarDTO2
+getBrand()êç
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java( ((1
+
+%3void"7com.adpguima.model.Guitar#setBrand(Ljava/lang/String;)V*/
+-
+persistentGuitarcom.adpguima.model.Guitar*
+
+%2java.lang.String2setBrand(Ljava/lang/String;)˙˜
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java)& )(D
+%4java.util.Date"?com.adpguima.dto.GuitarDTO#getManufactureDate()Ljava/util/Date;*)
+'
+	guitarDTOcom.adpguima.dto.GuitarDTO2getManufactureDate()ûõ
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java) )(E
+
+%5void"?com.adpguima.model.Guitar#setManufactureDate(Ljava/util/Date;)V*/
+-
+persistentGuitarcom.adpguima.model.Guitar*
+
+%4java.util.Date2$setManufactureDate(Ljava/util/Date;)ÍÁ
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java* *(0
+%6java.lang.String"7com.adpguima.dto.GuitarDTO#getModel()Ljava/lang/String;*)
+'
+	guitarDTOcom.adpguima.dto.GuitarDTO2
+getModel()êç
+]
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java* *(1
+
+%7void"7com.adpguima.model.Guitar#setModel(Ljava/lang/String;)V*/
+-
+persistentGuitarcom.adpguima.model.Guitar*
+
+%6java.lang.String2setModel(Ljava/lang/String;)”
 –
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java&	 &((
-%0"com.adpguima.service.GuitarService"__id*?*=*
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java+	 +((
+%8"com.adpguima.service.GuitarService"__id*?*=*
 (com.adpguima.controller.GuitarController"
-guitarServiceÿ’
+guitarService‚ﬂ
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java&	 &("
-%1com.adpguima.model.Guitar"^com.adpguima.service.GuitarService#add(Lcom/adpguima/model/Guitar;)Lcom/adpguima/model/Guitar;**
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java+	 +(,
+%9com.adpguima.model.Guitar"^com.adpguima.service.GuitarService#add(Lcom/adpguima/model/Guitar;)Lcom/adpguima/model/Guitar;**
 (
-%0"com.adpguima.service.GuitarService*%
-#
-guitarcom.adpguima.model.Guitar2 add(Lcom/adpguima/model/Guitar;)"Ç
+%8"com.adpguima.service.GuitarService*/
+-
+persistentGuitarcom.adpguima.model.Guitar2 add(Lcom/adpguima/model/Guitar;)"Ç
 ]
-SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java& &(#!
+SE:\Estudos\Java\guitars\src\main\java\com\adpguima\controller\GuitarController.java+ +(-!
 
-%1com.adpguima.model.Guitar:#
-guitarcom.adpguima.model.GuitarB,*
+%9com.adpguima.model.Guitar:'
+	guitarDTOcom.adpguima.dto.GuitarDTOB,*
 (com.adpguima.controller.GuitarController

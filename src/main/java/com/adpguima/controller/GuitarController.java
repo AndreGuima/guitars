@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.adpguima.dto.GuitarDTO;
 import com.adpguima.exception.GuitarNotFoundException;
 import com.adpguima.model.Guitar;
 import com.adpguima.service.GuitarService;
@@ -34,8 +35,12 @@ public class GuitarController {
 
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public Guitar save(@RequestBody Guitar guitar) {
-		return guitarService.add(guitar);
+	public Guitar save(@RequestBody GuitarDTO guitarDTO) {
+		Guitar persistentGuitar = new Guitar();
+		persistentGuitar.setBrand(guitarDTO.getBrand());
+		persistentGuitar.setManufactureDate(guitarDTO.getManufactureDate());
+		persistentGuitar.setModel(guitarDTO.getModel());
+		return guitarService.add(persistentGuitar);
 	}
 
 	@DeleteMapping("/{id}")

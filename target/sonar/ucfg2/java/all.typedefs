@@ -93,13 +93,14 @@ toString()6com.adpguima.model.Guitar#toString()Ljava/lang/String;ó
 
 getModel()6com.adpguima.model.Guitar#getModel()Ljava/lang/String;/
 setId(J)#com.adpguima.model.Guitar#setId(J)VV
-getManufactureDate()>com.adpguima.model.Guitar#getManufactureDate()Ljava/util/Date;ˆ
+getManufactureDate()>com.adpguima.model.Guitar#getManufactureDate()Ljava/util/Date;¥
 "com.adpguima.service.GuitarServicejava.lang.Object:
 	delete(J)-com.adpguima.service.GuitarService#delete(J)VÇ
  add(Lcom/adpguima/model/Guitar;)^com.adpguima.service.GuitarService#add(Lcom/adpguima/model/Guitar;)Lcom/adpguima/model/Guitar;8
 <init>(),com.adpguima.service.GuitarService#<init>()VC
-list()9com.adpguima.service.GuitarService#list()Ljava/util/List;$
-org.slf4j.Loggerjava.lang.Objectˇ8
+list()9com.adpguima.service.GuitarService#list()Ljava/util/List;<
+
+<clinit>().com.adpguima.service.GuitarService#<clinit>()Vˇ8
 9org.springframework.boot.builder.SpringApplicationBuilderjava.lang.Object∞
 sources([Ljava/lang/Class;)êorg.springframework.boot.builder.SpringApplicationBuilder#sources([Ljava/lang/Class;)Lorg/springframework/boot/builder/SpringApplicationBuilder;ﬁ
 2bannerMode(Lorg/springframework/boot/Banner$Mode;)ßorg.springframework.boot.builder.SpringApplicationBuilder#bannerMode(Lorg/springframework/boot/Banner$Mode;)Lorg/springframework/boot/builder/SpringApplicationBuilder;Æ
@@ -138,7 +139,17 @@ PbeanNameGenerator(Lorg/springframework/beans/factory/support/BeanNameGenerator;
 *additionalProfiles(Ljava/util/Collection;)üorg.springframework.boot.builder.SpringApplicationBuilder#additionalProfiles(Ljava/util/Collection;)Lorg/springframework/boot/builder/SpringApplicationBuilder;¥
 profiles([Ljava/lang/String;)íorg.springframework.boot.builder.SpringApplicationBuilder#profiles([Ljava/lang/String;)Lorg/springframework/boot/builder/SpringApplicationBuilder;é
 Jinitializers([Lorg/springframework/context/ApplicationContextInitializer;)øorg.springframework.boot.builder.SpringApplicationBuilder#initializers([Lorg/springframework/context/ApplicationContextInitializer;)Lorg/springframework/boot/builder/SpringApplicationBuilder;∏
-contextClass(Ljava/lang/Class;)îorg.springframework.boot.builder.SpringApplicationBuilder#contextClass(Ljava/lang/Class;)Lorg/springframework/boot/builder/SpringApplicationBuilder;ö
+contextClass(Ljava/lang/Class;)îorg.springframework.boot.builder.SpringApplicationBuilder#contextClass(Ljava/lang/Class;)Lorg/springframework/boot/builder/SpringApplicationBuilder;Â
+com.adpguima.dto.GuitarDTOjava.lang.ObjectE
+
+getBrand()7com.adpguima.dto.GuitarDTO#getBrand()Ljava/lang/String;X
+setBrand(Ljava/lang/String;)8com.adpguima.dto.GuitarDTO#setBrand(Ljava/lang/String;)Vh
+$setManufactureDate(Ljava/util/Date;)@com.adpguima.dto.GuitarDTO#setManufactureDate(Ljava/util/Date;)V0
+<init>()$com.adpguima.dto.GuitarDTO#<init>()VX
+setModel(Ljava/lang/String;)8com.adpguima.dto.GuitarDTO#setModel(Ljava/lang/String;)VE
+
+getModel()7com.adpguima.dto.GuitarDTO#getModel()Ljava/lang/String;W
+getManufactureDate()?com.adpguima.dto.GuitarDTO#getManufactureDate()Ljava/util/Date;ö
 java.lang.Throwablejava.lang.Objectjava.io.Serializable;
 printStackTrace()&java.lang.Throwable#printStackTrace()Vc
 getStackTraceElement(I)Hjava.lang.Throwable#getStackTraceElement(I)Ljava/lang/StackTraceElement;¡
@@ -189,4 +200,5 @@ getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
 >org.springframework.data.repository.PagingAndSortingRepositoryjava.lang.Object2org.springframework.data.repository.CrudRepositoryT
 @org.springframework.data.repository.query.QueryByExampleExecutorjava.lang.ObjectÀ
 5org.springframework.data.jpa.repository.JpaRepository@org.springframework.data.repository.query.QueryByExampleExecutor>org.springframework.data.repository.PagingAndSortingRepositoryjava.lang.Objects
-(com.adpguima.repository.GuitarRepositoryjava.lang.Object5org.springframework.data.jpa.repository.JpaRepository
+(com.adpguima.repository.GuitarRepositoryjava.lang.Object5org.springframework.data.jpa.repository.JpaRepository$
+org.slf4j.Loggerjava.lang.Object
