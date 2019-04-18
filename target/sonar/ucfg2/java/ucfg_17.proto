@@ -1,0 +1,89 @@
+
+6com.adpguima.model.Guitar#toString()Ljava/lang/String;
+__unknown_file ("1*π
+1N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(é
+ã
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(
+%0java.lang.String"__concat*
+Guitar [id=*
+""ù
+ö
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E((
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+
+, brand=õ
+ò
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE+ E(0
+%2java.lang.String"__id*(*&
+com.adpguima.model.Guitar"
+brand©
+¶
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(0
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.Stringù
+ö
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(=
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+
+, model=õ
+ò
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE@ E(E
+%5java.lang.String"__id*(*&
+com.adpguima.model.Guitar"
+model©
+¶
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(E
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.Stringß
+§
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(\
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+, manufactureDate=£
+†
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE_ E(n
+%8java.util.Date"__id*2*0
+com.adpguima.model.Guitar"
+manufactureDateß
+§
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 E(n
+%9java.lang.String"__concat*
+
+%7java.lang.String*
+
+%8java.util.Dateó
+î
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE	 F(	
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+]"k
+N
+DE:\Estudos\Java\guitars\src\main\java\com\adpguima\model\Guitar.javaE F(
+
+
+%10java.lang.StringB
+com.adpguima.model.Guitar
